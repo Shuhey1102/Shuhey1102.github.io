@@ -3,12 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href ="./css/reset.css">    
     <link rel = "stylesheet" href ="./css/style.css">
     <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
-    <title>My Portfolio</title>
+    <title>Shuhey’s Website</title>
 </head>
 <body>
+<div class="wrapper">
+<header>
+    <div class="header-wrapper">
+        <div class="title-wrapper">
+            <h1 class="title">Shuhey’s Website</h1>
+            <nav class ="global-nav">
+                <ul>
+                        <li class = "nav-item">                
+                            <a href="#about-me">
+                                <h2>About Me</h2>
+                            </a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href="#skills">
+                                <h2>Skills</h2>
+                            </a>
+                        </li>                
+                        <li class = "nav-item">
+                            <a href="#works">
+                                <h2>Works</h2>
+                            </a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href="#contact">
+                                <h2>Contact</h2>
+                            </a>
+                        </li>
+                </ul>
+            </nav>
+        </div>
+        <a href="https://github.com/Shuhey1102" target="_blank" rel="noopener noreferrer">
+            <img class="favicon" src="./img/favicon.png" alt="GitHub">
+        </a>
+    </div>
+
+</header>
+<main>
+    <!-- About Me -->
+    <section class="heading-section" id = "about-me">
+        <h2 class="heading">
+            About Me
+            <img src="./img/person.png" alt="Profile Image" class="head-icon">
+        </h2>
+        <p class="profile-box" data-text="about_me">Welcome to my website!</p>
+    </section>
+    <!-- Skills -->
+    <section class="heading-section" id = "skills">
+        <h2 class="heading">
+            Skills
+            <img src="./img/skills.png" alt="Skills Image" class="head-icon">        
+        </h2>
+        <p class="profile-box" data-text="skills">I have experience in various technologies.</p>
+    </section>
+    <!-- Works -->
+    <section class="heading-section" id = "works">
+        <h2 class="heading">
+            Works
+            <img src="./img/works.png" alt="Works Image" class="head-icon">        
+        </h2>   
+        <p class="profile-box" data-text="works">Here are some of my projects.</p>
+    </section>
+    <!-- Contact -->
+    <section class="heading-section" id = "contact">
+        <h2 class="heading">
+            Contact
+            <img src="./img/contact.png" alt="Contact Image" class="head-icon">
+        </h2>
+        <p class="profile-box" data-text="contact">Feel free to reach out to me!.</p>
+    </section>
+</main>
+<footer>
     
+</footer>
+</div>
 <script src="./js/main.js"></script>
 </body>
 </html>
