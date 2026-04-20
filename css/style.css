@@ -21,7 +21,7 @@ header{
     position: relative;
     background: #f0f0f0;
     width: 100%;    
-    height: 750px;    
+    height: 700px;    
     font-size: 1.2rem;
 }
 header .title{
@@ -67,7 +67,7 @@ header .favicon:hover{
     align-items: center; 
     font-size: 3rem;
     width: 100%;    
-    height: 750px;          
+    height: 700px;          
 }
 
 .heading-section.heading-section:nth-child(2n){
