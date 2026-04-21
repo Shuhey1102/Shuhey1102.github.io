@@ -26,10 +26,13 @@ header{
     font-size: 1.2rem;
 }
 header .title{
+    display: flex;
+    justify-content: center;    
     text-align: center;
     margin: 0;
     font-size: 4rem;    
     text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    flex-wrap: wrap;
 }
 header .global-nav ul{
     display: flex;
@@ -38,6 +41,7 @@ header .global-nav ul{
     padding: 0;
     margin: 20px; 
     text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    flex-wrap: wrap;
 }
 header .global-nav .nav-item{
     list-style: none;    
@@ -48,10 +52,11 @@ header .global-nav .nav-item a{
 }
 header .global-nav .nav-item a:hover{
     text-decoration: underline;
+    opacity: 0.8;
 }
 header .favicon{
-    width: 100px;
-    height: 100px;
+    width: clamp(50px, 10vw, 100px);
+    height: auto;
 }
 header .favicon:hover{
     opacity: 0.8;
@@ -62,6 +67,7 @@ header .favicon:hover{
     gap: 20px;
     justify-content: center;
     width: 100%;
+    flex-wrap: wrap;
 }
 .heading-section{
     display: inline-block;
@@ -83,9 +89,10 @@ header .favicon:hover{
     padding : 40px 0;
     margin-bottom: 40px;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    flex-wrap: wrap;
 }
 
 .head-icon{
     width: 30px;
-    height: 30px;  
+    height: 30px;
 }
