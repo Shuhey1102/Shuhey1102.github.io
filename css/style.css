@@ -55,7 +55,7 @@ header .global-nav .nav-item a:hover{
     opacity: 0.8;
 }
 header .favicon{
-    width: clamp(40px, 10vw, 100px);
+    width: clamp(50px, 10vw, 100px);
     height: auto;
 }
 header .favicon:hover{
@@ -93,6 +93,6 @@ header .favicon:hover{
 }
 
 .head-icon{
-    width: clamp(20px, 4vw, 30px);
-    height: auto;
+    width: 30px;
+    height: 30px;
 }
